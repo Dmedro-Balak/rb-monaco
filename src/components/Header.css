@@ -1,0 +1,46 @@
+.Header {
+  border: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+
+  box-sizing: border-box;
+
+  height: 8vh;
+  width: 100%;
+
+  top: 0 !important;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.wrap {
+  width: 25%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  gap: 30%;
+}
+
+.Name {
+  overflow: hidden;
+  white-space: nowrap;
+  flex-grow: 1;
+  display: inline-block;
+  text-overflow: ellipsis;
+  text-align: center;
+  width: 75%;
+}
+
+.User {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+
+  flex-grow: 1;
+}

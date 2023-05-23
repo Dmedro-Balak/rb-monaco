@@ -1,0 +1,12 @@
+.dark {
+  background-color: #131516;
+  color: #98a3ad;
+}
+.dark.Header {
+  color: #43484d;
+}
+
+.light {
+  background-color: white;
+  color: #000;
+}

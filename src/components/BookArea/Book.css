@@ -1,0 +1,43 @@
+.Book {
+  padding-right: 50px;
+  padding-left: 50px;
+
+  width: 50%;
+  height: 92vh;
+  overflow-x: auto;
+}
+
+.Book::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+.Book::-webkit-scrollbar-track {
+  background-color: #292c2f;
+}
+
+.Book::-webkit-scrollbar-thumb {
+  background-color: #a1adb8;
+}
+
+code {
+  color: #c5c8c6;
+  background: #1d1f21;
+  padding: 0.1rem 0.3rem;
+  font-family: monospace;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding: 10px 20px;
+
+  color: #98a3ad;
+  background-color: hsl(234, 21%, 18%);
+  border-top: 0.1rem solid hsl(234, 21%, 23%);
+  border-bottom: 0.1rem solid hsl(234, 21%, 23%);
+}
+
+.Book p {
+  padding: 5px 0;
+  line-height: 1.4rem;
+}
